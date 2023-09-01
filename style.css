@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD7F6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.center-button {
+    position: absolute;
+    top: 300%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titles {
+    margin-top: 20px;
+}
+
+#info {
+    background-color: #1B2021;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+}
+
+button {
+    background-color: #CC8B8C;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 60%;
+    height: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A27071;
+}
+
+/* Adjusted link styles */
+#info a {
+    color: #ADD7F6; /* Brighter color for links */
+    text-decoration: none;
+}
+
+#info a:hover {
+    text-decoration: underline;
+}
+
+/* Centered bullets and larger font size for unordered list */
+#info ul {
+    text-align: left; /* Center the bullets */
+    font-size: 18px; /* Adjust the font size for the list items */
+    padding-left: 0; /* Remove default padding */
+    list-style-position: inside; /* Place bullets inside the list item */
+}
+
+#info li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
